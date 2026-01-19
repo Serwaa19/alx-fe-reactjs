@@ -1,6 +1,6 @@
 import React from 'react';
-import ProfilePage from './ProfilePage';
-import UserContext from './UserContext';
+import ProfilePage from './components/ProfilePage';
+import UserContext from './components/UserContext';
 import Header from '../../alx-react-app-props/src/components/Header';
 import MainContent from '../../alx-react-app-props/src/components/MainContent';
 import Footer from '../../alx-react-app-props/src/components/Footer';
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    
+
      <UserContext.Provider value={userData}>
       <ProfilePage />
     </UserContext.Provider>
