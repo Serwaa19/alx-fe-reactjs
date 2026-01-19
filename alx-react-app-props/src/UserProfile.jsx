@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import UserContext from './UserContext';
-import UserDetails from './UserDetails';
+import UserContext from './components/UserContext';
+import UserDetails from './components/UserDetails';
 
 function UserProfile() {
   const userData = useContext(UserContext);
