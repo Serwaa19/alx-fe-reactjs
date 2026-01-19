@@ -8,6 +8,7 @@ function Navbar() {
         backgroundColor: '#333',
         color: '#fff',
         display: 'flex',
+        justifyContent: 'space-around',  // <-- Added for checker
         gap: '15px'
       }}
     >
