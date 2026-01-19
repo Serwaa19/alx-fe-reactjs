@@ -1,12 +1,13 @@
 import React from 'react';
 import ProfilePage from './components/ProfilePage';
-import UserContext from './components/UserContext';
+import UserContext from './UserContext';
 import Header from '../../alx-react-app-props/src/components/Header';
 import MainContent from '../../alx-react-app-props/src/components/MainContent';
 import Footer from '../../alx-react-app-props/src/components/Footer';
 import Counter from '../../alx-react-app-props/src/components/Counter';
 import { useState } from 'react';
 import './App.css'
+
 function App() {
   const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
   const [count, setCount] = useState(0)
