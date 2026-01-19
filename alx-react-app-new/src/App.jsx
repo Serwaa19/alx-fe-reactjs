@@ -3,6 +3,7 @@ import UserProfile from "../../alx-react-app-new/src/components/UserProfile";
 import Header from '../../alx-react-app-new/src/components/Header';
 import MainContent from '../../alx-react-app-new/src/components/MainContent';
 import Footer from '../../alx-react-app-new/src/components/Footer';
+import Counter from '../../alx-react-app-new/src/components/Counter';
 import { useState } from 'react';
 import './App.css'
 
@@ -33,6 +34,7 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
+       <Counter /> 
     </div>
       <h1>Vite + React</h1>
       <div className="card">
