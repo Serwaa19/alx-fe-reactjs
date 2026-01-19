@@ -1,8 +1,8 @@
 import React from 'react';
-import UserProfile from "../../alx-react-app-new/alx-react-app/src/components/UserProfile";
-import Header from '../../alx-react-app-new/alx-react-app/src/components/Header';
-import MainContent from '../../alx-react-app-new/alx-react-app/src/components/MainContent';
-import Footer from '../../alx-react-app-new/alx-react-app/src/components/Footer';
+import UserProfile from "./components/UserProfile";
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
