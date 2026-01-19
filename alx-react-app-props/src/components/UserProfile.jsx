@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import UserContext from './components/UserContext';
+import UserContext from './UserContext';
 import UserDetails from './components/UserDetails';
 
 function UserProfile() {
