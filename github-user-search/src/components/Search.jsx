@@ -3,7 +3,7 @@ import { fetchUserData } from "../services/githubService";
 
 function Search() {
   const [username, setUsername] = useState("");
-  const [user, setUser] = useState(null);
+  const [users, setUsers] = useState([]); // change to array
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -12,11 +12,11 @@ function Search() {
 
     setLoading(true);
     setError("");
-    setUser(null);
+    setUsers([]); // reset array
 
     try {
       const data = await fetchUserData(username);
-      setUser(data);
+      setUsers([data]); // wrap single user in array
     } catch (err) {
       setError("Looks like we cant find the user");
     } finally {
@@ -37,19 +37,20 @@ function Search() {
         <button type="submit">Search</button>
       </form>
 
-      {/* Conditional Rendering */}
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
 
-      {user && (
-        <div>
-          <img src={user.avatar_url} alt="avatar" width="100" />
-          <h3>{user.name || user.login}</h3>
-          <a href={user.html_url} target="_blank" rel="noreferrer">
-            View GitHub Profile
-          </a>
-        </div>
-      )}
+      {/* Map over the users array */}
+      {users.length > 0 &&
+        users.map((user) => (
+          <div key={user.id}>
+            <img src={user.avatar_url} alt="avatar" width="100" />
+            <h3>{user.name || user.login}</h3>
+            <a href={user.html_url} target="_blank" rel="noreferrer">
+              View GitHub Profile
+            </a>
+          </div>
+        ))}
     </div>
   );
 }
