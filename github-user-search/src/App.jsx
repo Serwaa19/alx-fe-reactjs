@@ -1,10 +1,10 @@
-import Search from "./components/Search";
 
 function App() {
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>GitHub User Search</h1>
-      <Search />
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <h1 className="text-3xl font-bold text-blue-600">
+        Tailwind Is Working
+      </h1>
     </div>
   );
 }
