@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import recipeData from '../data.json';
 
 function HomePage() {
+  const location = useLocation();
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -28,6 +29,17 @@ function HomePage() {
         <p className="mt-2 text-lg text-gray-600">
           Discover and share delicious recipes
         </p>
+        <Link
+          to="/recipe/new"
+          className="mt-4 inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-blue-700 transition-colors"
+        >
+          Add recipe
+        </Link>
+        {location.state?.message && (
+          <p className="mt-4 text-green-600 font-medium" role="status">
+            {location.state.message}
+          </p>
+        )}
       </header>
 
       <section className="max-w-7xl mx-auto">
