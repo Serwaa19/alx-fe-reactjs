@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "title": "Beef Tacos",
+    "summary": "Crispy tortillas filled with seasoned beef, fresh salsa, and creamy guacamole.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "title": "Vegetable Stir-Fry",
+    "summary": "Colorful vegetables tossed in a savory soy-ginger sauce, ready in minutes.",
+    "image": "https://via.placeholder.com/150"
+  }
+]
