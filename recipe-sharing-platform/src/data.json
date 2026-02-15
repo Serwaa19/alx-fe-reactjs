@@ -3,24 +3,88 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "images/spaghetti carbonara.jpg",
+    "ingredients": [
+      "400g spaghetti",
+      "200g guanciale or pancetta, diced",
+      "4 large egg yolks + 2 whole eggs",
+      "100g Pecorino Romano, finely grated",
+      "Black pepper, freshly ground",
+      "Salt for pasta water"
+    ],
+    "instructions": [
+      "Bring a large pot of salted water to a boil. Cook the spaghetti until al dente, then reserve 1 cup of pasta water and drain.",
+      "While the pasta cooks, fry the guanciale in a large pan over medium heat until crispy, about 8–10 minutes. Remove from heat.",
+      "In a bowl, whisk together the egg yolks, whole eggs, and most of the Pecorino. Season with plenty of black pepper.",
+      "Add the hot pasta to the pan with the guanciale. Off the heat, quickly pour in the egg mixture and toss vigorously, adding pasta water a little at a time until you have a silky sauce.",
+      "Serve immediately with the remaining Pecorino and more black pepper."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "image": "images/chicken-tikka-masala.jpg",
+    "ingredients": [
+      "500g chicken breast, cubed",
+      "150g yogurt",
+      "2 tbsp tikka masala paste",
+      "1 onion, finely chopped",
+      "400g canned tomatoes",
+      "100ml double cream",
+      "2 tbsp butter",
+      "Garlic, ginger, garam masala, salt, cilantro"
+    ],
+    "instructions": [
+      "Marinate the chicken in yogurt and 1 tbsp tikka paste for at least 30 minutes. Grill or broil until lightly charred and cooked through.",
+      "In a large pan, melt the butter and fry the onion until soft. Add garlic, ginger, and remaining tikka paste; cook for 2 minutes.",
+      "Add the canned tomatoes and simmer for 10–15 minutes until thickened. Blend until smooth if desired.",
+      "Stir in the cream and garam masala. Add the chicken and simmer for 5 minutes. Season with salt and garnish with cilantro. Serve with rice or naan."
+    ]
   },
   {
     "id": 3,
     "title": "Beef Tacos",
     "summary": "Crispy tortillas filled with seasoned beef, fresh salsa, and creamy guacamole.",
-    "image": "https://via.placeholder.com/150"
+    "image": "images/beef-taco.webp",
+    "ingredients": [
+      "500g ground beef",
+      "1 packet taco seasoning",
+      "8–10 small corn or flour tortillas",
+      "1 avocado, mashed",
+      "Lime juice, salt",
+      "Salsa, shredded lettuce, grated cheese, sour cream"
+    ],
+    "instructions": [
+      "Brown the ground beef in a skillet over medium-high heat, breaking it up with a spoon. Drain excess fat, then add taco seasoning and a splash of water. Simmer for 5 minutes.",
+      "Warm the tortillas in a dry pan or over a flame until slightly charred.",
+      "Make guacamole by mashing the avocado with lime juice and salt.",
+      "Assemble tacos: fill tortillas with beef, then top with salsa, lettuce, cheese, sour cream, and guacamole. Serve with lime wedges."
+    ]
   },
   {
     "id": 4,
     "title": "Vegetable Stir-Fry",
     "summary": "Colorful vegetables tossed in a savory soy-ginger sauce, ready in minutes.",
-    "image": "https://via.placeholder.com/150"
+    "image": "images/vegetable stir fry.jpg",
+    "ingredients": [
+      "2 tbsp vegetable oil",
+      "2 cloves garlic, minced",
+      "1 tbsp fresh ginger, grated",
+      "1 bell pepper, sliced",
+      "1 cup broccoli florets",
+      "1 carrot, julienned",
+      "100g snap peas",
+      "3 tbsp soy sauce",
+      "1 tbsp rice vinegar",
+      "1 tsp sesame oil",
+      "Sesame seeds and green onion for garnish"
+    ],
+    "instructions": [
+      "Heat the oil in a wok or large skillet over high heat. Add garlic and ginger; stir-fry for 30 seconds until fragrant.",
+      "Add the harder vegetables (carrot, broccoli) and stir-fry for 2–3 minutes. Add bell pepper and snap peas; stir-fry for another 2 minutes.",
+      "Mix soy sauce, rice vinegar, and sesame oil in a small bowl. Pour over the vegetables and toss for 1 minute until everything is coated and glossy.",
+      "Transfer to a serving dish. Garnish with sesame seeds and sliced green onion. Serve with rice or noodles."
+    ]
   }
 ]
